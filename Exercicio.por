@@ -3,7 +3,7 @@ programa
 	
 	funcao inicio()
 	{
-		 acordar, olhos,levantar,escovar, roupa, sair ,toma
+		acordar, olhos,levantar,escovar, roupa, sair ,toma
 
 		escreva("acordar de manhã \n")
 		escreva("Acordar: ")
@@ -17,9 +17,9 @@ programa
 		leia(escovar)
 
 		escreva("tomar : ")
-		leia(escovar)
+		leia(tomar)
 
-		escreva("tomar: ")
+		escreva("roupa: ")
 		leia(roupa)
 	
 		
@@ -33,7 +33,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 86; 
+ * @POSICAO-CURSOR = 35; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
