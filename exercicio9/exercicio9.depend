@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1644381917 source:c:\users\user\documents\java\exercicio9\main.c
+	<stdio.h>
+	<stdlib.h>
+
