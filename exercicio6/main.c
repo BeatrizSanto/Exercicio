@@ -1,23 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main()
-{
-   float area, comprimento, largura,quadrado,preco;
+int main() {
+    int segundos, h, m, s, resto;
 
-printf("Digite a largura do terreno: ");
-scanf("%f",&largura);
-printf("Digite o comprimento do terreno: ");
-scanf("%f",&comprimento);
-printf("Digite o valor do metro quadrado: ");
-scanf("%f",&quadrado);
+    printf("Digite a duração em segundos: ");
+    scanf("%d", &segundos);
 
-area=comprimento*largura;
-preco=comprimento*quadrado;
+    h = segundos / 3600;
+    resto = segundos % 3600;
+    m = resto / 60;
+    s = resto % 60;
+    printf("%d:%d:%d\n", h, m, s);
 
-printf("Area do terreno  %.1f\n",area);
-
-printf("Preco do terreno %.1f",preco);
-
-return 0;
+    return 0;
 }
